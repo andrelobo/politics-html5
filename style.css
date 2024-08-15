@@ -2226,9 +2226,17 @@ select.mobile-device {
 
 .footer {
     padding: 90px 0 80px !important;
-    color: #999;
+    color: #ffffff;
     background-color: #1f1f1f;
 }
+
+.footer-nav li a {
+    color: white;
+  }
+  
+  .footer-nav li a:hover {
+    color: #ccc; /* Light gray color on hover */
+  }
 
 .footer .widget-title {
     position: relative;
